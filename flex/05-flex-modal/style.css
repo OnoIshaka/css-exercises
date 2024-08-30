@@ -71,18 +71,31 @@ button.cancel {
   display: flex;
   /* flex-direction: column; */
   justify-content: space-evenly;
+  padding: 10px;
+  gap: 10px;
 }
 .top-right {
   margin: 10px;
   display: flex;
   justify-content: space-between;
-  align-content: center;
+  align-items: center;
 }
 
 .icon {
   margin: 10px;
 }
 
-/* .header {
-  flex: 1;
-} */
+.right {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.buttons {
+  display: flex;
+  gap: 2px;
+}
+.header {
+  font-weight: bold;
+  font-size: 18px;
+}
